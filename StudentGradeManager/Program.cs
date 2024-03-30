@@ -4,7 +4,7 @@ using static MidtermAct1.Student;
 
 static void GetStudentInfo(List<Student> students)
 {
-    using(var reader = new StreamReader(@"C:\Users\Kurt\Documents\FILES\College Files\Second Year\Second Sem\CSPL\cspls.csv"))
+    using(var reader = new StreamReader(@"../cspls.csv"))
     {
         while(!reader.EndOfStream)
         {
